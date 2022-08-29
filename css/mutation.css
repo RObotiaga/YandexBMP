@@ -1,0 +1,144 @@
+/* YANDEX SEARCH PAGE */
+.main.serp.i-bem {
+    background: #141414;
+    background-image: url(https://get.wallhere.com/photo/1920x1080-px-car-Chevrolet-Chevrolet-Camaro-SS-690709.jpg);
+}
+.serp-item {
+    color: #828282 !important;
+}
+:root {
+    --color-g-link-visited: #ac51ff !important;
+    --color-g-link: #0089ff !important;
+    --color-g-text-quaternary: #bfbfbf !important;
+    --color-g-text-primary: #fff !important;
+    --color-g-bg-overflow: #222222 !important;
+    --color-g-bg-overflow: #222222 !important;
+    --color-g-bg-primary: #222222 !important;
+    --suggest-color-g-bg-secondary: red !important;
+    --color-g-text-secondary: #a3a3a3 !important;
+    --color-g-yellow: red !important;
+    --color-g-control-secondary-hover: red !important;
+
+}
+.serp-navigation nav {
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: rgb(255 0 0) !important;
+}
+.misspell__level {
+    background: #222222;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.navigation__item-over:before, li.serp-item.serp-item_card {
+    border-bottom: 3px solid red !important;
+}
+.serp-item_card {
+    border: 1px solid #424242;
+}
+.EntitySites.Theme_entity-sites .EntitySites-Button.Button2::before {
+    border: 1px solid rgb(255 255 255 / 20%) !important;
+}
+a.Button2.Button2_size_m.Button2_view_clear.Button2_type_link.EntitySites-Button {
+    color: #828282;
+}
+span.input__box {
+    border-radius: 9px 0px 0px 9px;
+    background: #424242;
+}
+.serp-list.serp-list_type_search.serp-list_unique_yes.serp-list_rum_yes.serp-list_justifier_yes.serp-controller__list.counter__reqid.clearfix.i-bem.serp-list_js_inited, .NativeScroll-Inner, .page-layout.page-layout_page_search.page-layout_layout_serp.serp-controller.serp-controller_infinite_yes.serp-controller_navigation_yes.serp-controller_complain_yes.serp-controller_prefetch_yes.serp-controller_grid-counter.serp-controller_vertical-shadowed.serp-controller_viewer.serp-controller_viewer-history.serp-controller_small-top-padding.navigation-controller.incut-controller.i-bem.navigation-controller_js_inited.serp-controller_page_search.serp-controller_js_inited.incut-controller_js_inited  {
+    background: #141414;
+}
+
+div#tabs-navigation-placeholder {
+    border-bottom: 1px solid red;
+}
+.b-page_block-design .page-layout .content__left .serp-list_type_search .serp-item_hover_offset, .b-page_block-design .page-layout .content__left .serp-list_type_search .serp-item_hover_offset:first-child {
+    border: 1px solid #424242;
+    margin-bottom: 2px;
+}
+ul.mini-suggest__popup-content {
+    background: #141414;
+    border-radius: 5px;
+    border: 1px solid #424242;
+}
+li.mini-suggest__item {
+    background: #222222;
+    color: #b3b3b3;
+    border-top: 1px solid #424242;
+}
+li.mini-suggest__item:hover {
+    background: #323232;
+}
+.input_theme_websearch2 {
+    border: 1px solid red !important;
+    --color-l-arrow-bg: #424242 !important;
+
+}
+.mini-suggest, .mini-suggest__popup, .mini-suggest__overlay {
+    --suggest-color-g-control-primary: red !important;
+}
+.serp-header:not(.serp-header_kids) .search2__input::after {
+    background-color: red !important;
+}
+a.logo.logo_type_link.logo_name_yslogo-ru-86x35.link.i-bem {
+    filter: brightness(0) invert(1);
+}
+.VanillaReact.RelatedBottom {
+    background-color: #222222;
+    margin-left: 0px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+}
+a.link.link_theme_none.link_target_serp.pager__item.pager__item_kind_page.i-bem, a.link.link_theme_none.link_target_serp.pager__item.pager__item_kind_next.i-bem {
+    background-color: #222222;
+    border-radius: 10000px;
+    margin-left: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    margin-right: 15px;
+    transition: 0.3s;
+}
+span.pager__item.pager__item_current_yes.pager__item_kind_page {
+    background-color: #7a2929;
+    margin-left: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255 0 0);
+    margin-right: 15px;
+    box-shadow: 0 0 20px rgb(255 81 81);
+    transition: 0.3s;
+}
+span.pager__item.pager__item_current_yes.pager__item_kind_page:hover {
+    filter: invert(1);
+}
+a.link.link_theme_none.link_target_serp.pager__item.pager__item_kind_page.i-bem:hover, a.link.link_theme_none.link_target_serp.pager__item.pager__item_kind_next.i-bem:hover {
+    box-shadow: 0 0 20px rgb(255 0 0);
+    background-color: #7a2929;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255 0 0);
+}
+.Content.Content_first, .Footer.SearchPage-Footer {
+    background-color: #141414 !important;
+}
+.Header .navigation, .Header .serp-header__wrapper {
+    background-color: #222222;
+}
+
+/* HABR */
+.tm-page {
+    background: #141414 !important;
+}
+article.tm-article-presenter__content.tm-article-presenter__content_narrow, li.serp-item.serp-item_card {
+    background: #222222 !important;
+}
+.article-formatted-body {
+    color: #828282 !important;
+}
