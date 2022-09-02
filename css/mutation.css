@@ -1,24 +1,23 @@
 /* YANDEX SEARCH PAGE */
 .main.serp.i-bem {
     background: #141414;
-    background-image: url(https://get.wallhere.com/photo/1920x1080-px-car-Chevrolet-Chevrolet-Camaro-SS-690709.jpg);
+    /*background-image: url(https://get.wallhere.com/photo/1920x1080-px-car-Chevrolet-Chevrolet-Camaro-SS-690709.jpg);*/
 }
 .serp-item {
     color: #828282 !important;
 }
-:root {
+:root, .mini-suggest {
     --color-g-link-visited: #ac51ff !important;
     --color-g-link: #0089ff !important;
     --color-g-text-quaternary: #bfbfbf !important;
     --color-g-text-primary: #fff !important;
-    --color-g-bg-overflow: #222222 !important;
     --color-g-bg-overflow: #222222 !important;
     --color-g-bg-primary: #222222 !important;
     --suggest-color-g-bg-secondary: red !important;
     --color-g-text-secondary: #a3a3a3 !important;
     --color-g-yellow: red !important;
     --color-g-control-secondary-hover: red !important;
-
+    --color-g-control-secondary-hovered: rgb(255 0 0 / 66%) !important;
 }
 .serp-navigation nav {
     border-bottom-width: 1px !important;
@@ -26,7 +25,7 @@
     border-bottom-color: rgb(255 0 0) !important;
 }
 .misspell__level {
-    background: #222222;
+    background-color: #222222;
     padding: 10px;
     border-radius: 10px;
     margin-left: -15px;
@@ -38,7 +37,7 @@
 .serp-item_card {
     border: 1px solid #424242;
 }
-.EntitySites.Theme_entity-sites .EntitySites-Button.Button2::before {
+.EntitySites.Theme_entity-sites .EntitySites-Button.Button2::before, a.Button2.Button2_size_m.Button2_view_clear.Button2_type_link.WikiArticle-Button {
     border: 1px solid rgb(255 255 255 / 20%) !important;
 }
 a.Button2.Button2_size_m.Button2_view_clear.Button2_type_link.EntitySites-Button {
@@ -80,11 +79,11 @@ li.mini-suggest__item:hover {
 .mini-suggest, .mini-suggest__popup, .mini-suggest__overlay {
     --suggest-color-g-control-primary: red !important;
 }
+span.Button2-Text {
+    color: white;
+}
 .serp-header:not(.serp-header_kids) .search2__input::after {
     background-color: red !important;
-}
-a.logo.logo_type_link.logo_name_yslogo-ru-86x35.link.i-bem {
-    filter: brightness(0) invert(1);
 }
 .VanillaReact.RelatedBottom {
     background-color: #222222;
@@ -132,13 +131,3 @@ a.link.link_theme_none.link_target_serp.pager__item.pager__item_kind_page.i-bem:
     background-color: #222222;
 }
 
-/* HABR */
-.tm-page {
-    background: #141414 !important;
-}
-article.tm-article-presenter__content.tm-article-presenter__content_narrow, li.serp-item.serp-item_card {
-    background: #222222 !important;
-}
-.article-formatted-body {
-    color: #828282 !important;
-}
