@@ -1,23 +1,35 @@
 /* YANDEX SEARCH PAGE */
+body {
+    scroll-behavior: smooth
+}
 .main.serp.i-bem {
     background: #141414;
-    /*background-image: url(https://get.wallhere.com/photo/1920x1080-px-car-Chevrolet-Chevrolet-Camaro-SS-690709.jpg);*/
-}
+    background-attachment: fixed;
+    /*background-image: url(https://get.wallhere.com/photo/1920x1080-px-car-Chevrolet-Chevrolet-Camaro-SS-690709.jpg);
+*/}
 .serp-item {
     color: #828282 !important;
+}
+.Article-Text_color_keyword {
+    --color-l-text: #0089ea !important;
+}
+.Article-Text_color_name {
+    --color-l-text: #e36900 !important;
 }
 :root, .mini-suggest {
     --color-g-link-visited: #ac51ff !important;
     --color-g-link: #0089ff !important;
     --color-g-text-quaternary: #bfbfbf !important;
     --color-g-text-primary: #fff !important;
-    --color-g-bg-overflow: #222222 !important;
-    --color-g-bg-primary: #222222 !important;
     --suggest-color-g-bg-secondary: red !important;
     --color-g-text-secondary: #a3a3a3 !important;
     --color-g-yellow: red !important;
     --color-g-control-secondary-hover: red !important;
     --color-g-control-secondary-hovered: rgb(255 0 0 / 66%) !important;
+}
+.Article-Code {
+    --color-l-bg: #323232 !important;
+    color: rgb(255, 255, 255);
 }
 .serp-navigation nav {
     border-bottom-width: 1px !important;
@@ -47,7 +59,7 @@ span.input__box {
     border-radius: 9px 0px 0px 9px;
     background: #424242;
 }
-.serp-list.serp-list_type_search.serp-list_unique_yes.serp-list_rum_yes.serp-list_justifier_yes.serp-controller__list.counter__reqid.clearfix.i-bem.serp-list_js_inited, .NativeScroll-Inner, .page-layout.page-layout_page_search.page-layout_layout_serp.serp-controller.serp-controller_infinite_yes.serp-controller_navigation_yes.serp-controller_complain_yes.serp-controller_prefetch_yes.serp-controller_grid-counter.serp-controller_vertical-shadowed.serp-controller_viewer.serp-controller_viewer-history.serp-controller_small-top-padding.navigation-controller.incut-controller.i-bem.navigation-controller_js_inited.serp-controller_page_search.serp-controller_js_inited.incut-controller_js_inited  {
+.serp-list,.serp-list_type_search,.serp-list_unique_yes,.serp-list_rum_yes,.serp-list_justifier_yes,.serp-controller__list,.counter__reqid,.clearfix,.i-bem,.serp-list_js_inited, ,.NativeScroll-Inner, ,.page-layout,.page-layout_page_search,.page-layout_layout_serp,.serp-controller,.serp-controller_infinite_yes,.serp-controller_navigation_yes,.serp-controller_complain_yes,.serp-controller_prefetch_yes,.serp-controller_grid-counter,.serp-controller_vertical-shadowed,.serp-controller_viewer,.serp-controller_viewer-history,.serp-controller_small-top-padding,.navigation-controller,.incut-controller,.i-bem,.navigation-controller_js_inited,.serp-controller_page_search,.serp-controller_js_inited,.incut-controller_js_inited  {
     background: #141414;
 }
 
@@ -84,6 +96,12 @@ span.Button2-Text {
 }
 .serp-header:not(.serp-header_kids) .search2__input::after {
     background-color: red !important;
+}
+.serp-list.serp-list_right_yes {
+    /*background-color: #222222;*/
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #424242;
 }
 .VanillaReact.RelatedBottom {
     background-color: #222222;

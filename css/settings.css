@@ -3,6 +3,21 @@ p{cursor: default;}
 span{
 	font-size: 15px;
 }
+#confirm {
+	-webkit-writing-mode: horizontal-tb !important;
+    -webkit-appearance: button;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+
+}
 #settings-body{
 	background-color: rgb(255, 255, 255);
 	width: 300px;
@@ -12,6 +27,7 @@ span{
 	/*background-color: #3498db;*/
 	color: #333;
 	color: #3498db;
+	border: 1px solid;
 }
 .clear{
 	clear: both;
@@ -54,10 +70,6 @@ button.ClearAll {
 	background-color: #3498db;
 	box-shadow: 0px 5px 13px 0px rgba(52, 152, 219, 0.4);
 }
-.settings-block{
-	padding: 10px;
-	border-bottom: 2px solid rgba(52, 152, 219, 0.1);
-}
 .switcher-block{
 	cursor: pointer;
 	display: inline-block;
@@ -83,12 +95,18 @@ button.ClearAll {
 .switcher-enabled:hover .switcher{
 	/*opacity: .7;*/
 }
-.switcher-label{
-	margin-left: 5px;
-	display: inline-block;
+.settings-block{
+	margin: 15px  0px 10px 25%;
+}
+.reset-settings{
+	border-radius: 5px;
+	background-color: #3498db25;
+	padding: 4px;
 	vertical-align: middle;
 	font-size: 14px;
 	font-weight: 500;
+	cursor: pointer;
+	border: 2px solid #3498db;
 }
 .inner-block{
 	padding-left: 8px;
@@ -378,20 +396,6 @@ input.how-to-install-but {
 .settings-help:hover{
 	background-color: #2775a9;
 	border-radius: 50%;
-}
-.reset-settings{
-	border-top: 1px solid rgba(52, 152, 219, 0.15);
-	border-bottom: 1px solid rgba(52, 152, 219, 0.15);
-	margin-top: 10px;
-	height: 18px;
-	text-align: center;
-	font-weight: 500;
-	text-transform: uppercase;
-	font-size: 11px;
-	cursor: pointer;
-	line-height: 20px;
-	background-color: rgba(52, 152, 219, 0.10);
-	color: #1d80c1;
 }
 .reset-settings p{
 	cursor: pointer;
